@@ -1,12 +1,4 @@
-package main
-
-import "fmt"
-
-func main() {
-
-	fmt.Println(ContainerParser("{()}"))
-
-}
+package parser
 
 func ContainerParser(container string) bool {
 
